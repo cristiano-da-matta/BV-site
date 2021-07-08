@@ -674,7 +674,7 @@ body:after {
       font-weight: bold; }
 
 .site-section {
-  padding: 90px 0; }
+  padding: 40px 0; }
 
 .service {
   background: #fff;
@@ -942,4 +942,37 @@ figure figcaption {
   .verde{
 color: #10a18e !important; 
 
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .bgcinza {
+    background: #f8f9fa;
+  }
+
+
+  .semquebra {
+    white-space: normal;
+  }
+
+  
+
+  @media (min-width: 576px) {
+
+  }
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 992px) {
+
+  }
+
+  @media (min-width: 1200px) {
+    .semquebra {
+      white-space: nowrap !important;
+    }
   }
