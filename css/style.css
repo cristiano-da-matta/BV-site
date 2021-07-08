@@ -957,10 +957,18 @@ color: #10a18e !important;
     white-space: normal;
   }
 
-  
+  .mapa {
+    width: 100%;
+    position: relative;
+
+    
+  }
 
   @media (min-width: 576px) {
-
+    .mapa {
+      box-sizing: border-box
+      
+    }
   }
 
   @media (min-width: 768px) {
