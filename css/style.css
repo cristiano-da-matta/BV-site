@@ -964,6 +964,13 @@ color: #10a18e !important;
     
   }
 
+  .neus-footer {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
   @media (min-width: 576px) {
     .mapa {
       box-sizing: border-box
