@@ -631,7 +631,7 @@ body:after {
     z-index: 2; }
   .slide-item, .slide-item > .container > .row, .cover, .cover > .container > .row {
     height: 100vh;
-    min-height: 760px; }
+    min-height: 560px; }
   .slide-item .heading, .cover .heading {
     font-size: 51px;
     font-weight: 700;
@@ -738,14 +738,14 @@ body:after {
 
 .feature .img-wrap {
   display: inline-block;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   position: relative;
   border-radius: 50%;
   background: #fff; }
   .feature .img-wrap img {
     position: absolute;
-    width: 36px;
+    width: 60px;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
