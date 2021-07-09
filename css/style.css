@@ -971,6 +971,11 @@ color: #10a18e !important;
     text-align: center;
   }
 
+  #covid {
+color: #110b0b; 
+
+  }
+
   @media (min-width: 576px) {
     .mapa {
       box-sizing: border-box
