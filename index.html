@@ -144,10 +144,26 @@
                       background-size: cover;
                       background-repeat: no-repeat;
                       background-position: center;
-                      
+
+                    }
+
+                    .mobile-only {
+                      display: block
+                    }
+
+                    .desktop-only {
+                      display: none
                     }
 
                     @media (min-width: 992px) {
+                      .mobile-only {
+                        display: none
+                      }
+
+                      .desktop-only {
+                        display: block
+                      }
+
                       .neus-img {
                         background-image: url("images/idososemat.png");
                       }
