@@ -133,6 +133,8 @@ body:after {
 
     }
 
+
+
 .site-section-heading {
   padding-bottom: 20px;
   margin-bottom: 0px;
@@ -143,10 +145,10 @@ body:after {
       font-size: 3rem; } }
 
 .site-footer {
-  padding: 4em 0; }
+  padding: 1em 0; }
   @media (min-width: 768px) {
     .site-footer {
-      padding: 8em 0; } }
+      padding: 3em 0; } }
   .site-footer .border-top {
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important; }
   .site-footer .social a {
@@ -169,7 +171,7 @@ body:after {
 
 .bg-text-line {
   display: inline;
-  background: #000;
+  background: #ED0001;
   -webkit-box-shadow: 20px 0 0 #000, -20px 0 0 #000;
   box-shadow: 20px 0 0 #000, -20px 0 0 #000; }
 
@@ -276,7 +278,7 @@ body:after {
   .ul-check.success li:before {
     color: #71bc42; }
   .ul-check.primary li:before {
-    color: #3c90f7; }
+    color: #ED0001; }
   .ul-check li.remove {
     text-decoration: line-through;
     color: #dee2e6; }
@@ -633,7 +635,7 @@ body:after {
     height: 100vh;
     min-height: 560px; }
   .slide-item .heading, .cover .heading {
-    font-size: 51px;
+    font-size: 38px;
     font-weight: 700;
     color: #fff;
     }
@@ -965,8 +967,7 @@ color: #10a18e !important;
   }
 
   .neus-footer {
-    width: 50%;
-    margin-left: auto;
+      margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
@@ -984,8 +985,9 @@ color: #110b0b;
 
   .site-logo {
     margin-top: 10px;
-
   }
+
+
   @media (min-width: 576px) {
     .mapa {
       box-sizing: border-box
