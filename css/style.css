@@ -85,7 +85,7 @@ body:after {
       color: #fff; }
   .btn.btn-white {
     border-color: #fff;
-    color: #3c90f7;
+    color: #ED0001;
     background: #fff;
     }
     .btn.btn-white:hover {
@@ -171,7 +171,7 @@ body:after {
 
 .bg-text-line {
   display: inline;
-  background: #ED0001;
+  background: #ED0001; 
   -webkit-box-shadow: 20px 0 0 #000, -20px 0 0 #000;
   box-shadow: 20px 0 0 #000, -20px 0 0 #000; }
 
@@ -987,11 +987,18 @@ color: #110b0b;
     margin-top: 10px;
   }
 
+.titulo-bem-viver {
+  padding: 1.2rem;
+  padding-left: 0%;
+}
+  
 
   @media (min-width: 576px) {
     .mapa {
-      box-sizing: border-box
-      
+      box-sizing: border-box  
+    }
+    .desktop-only {
+      display: none; 
     }
   }
 
