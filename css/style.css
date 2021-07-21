@@ -1471,10 +1471,16 @@ figure figcaption {
     /* FIXME: ESSA EH A DESKTOP */
     background-image: url("../images/idososemat.png");
   }
+
+  .desktop-only {
+    display: block;
+  }
 }
 
 @media (min-width: 1200px) {
   .semquebra {
     white-space: nowrap !important;
   }
+
+
 }
