@@ -1464,6 +1464,16 @@ figure figcaption {
   }
 }
 
+.form {
+  margin-left: 0;
+  left: 0;
+}
+
+.titulo-bem-viver > .h1 {
+  text-align: center; 
+  padding-right: 100px;
+
+}
 @media (min-width: 768px) {}
 
 @media (min-width: 992px) {
@@ -1477,10 +1487,13 @@ figure figcaption {
   }
 }
 
+.acertoform {
+  padding: 0;
+}
+
 @media (min-width: 1200px) {
   .semquebra {
     white-space: nowrap !important;
   }
-
 
 }
