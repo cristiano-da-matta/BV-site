@@ -715,7 +715,79 @@
   </script>
   <script src="js/main.js"></script>
 
+  <script>
+    var processing = false;
+//     document.addEventListener("DOMContentLoaded", function () {
+//         var form = document.querySelector('form');
+//         // console.log('a');
+// 		$("#ex1").modal({
+//   fadeDuration: 100
+// });
+        document.querySelector("#submitformhome").addEventListener("click", function () {
+            console.log("click");
+            if (processing) return;
 
+         if (!form.checkValidity()) {
+            
+                return alert("Verifique o preenchimento do formulário!!!");
+            }
+                // fbq('track', 'Form Home');
+                // gtag_report_conversion();
+                // ga('send','event', 'formulario ', 'Enviar', 'contato');
+                // ga('send','event', 'formulario', 'Contato');
+            processing = true;
+            
+         
+            // if(ssr.length == 0) {
+            //     ssr = "organico";
+            // }
+            // console.log(ssr.length);
+            // console.log(typeof(ssr));
+            // console.log(ssr);
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', 'http://www.audicareauditoria.com/mockup/maill.php', true);
+            xhr.setRequestHeader('Content-Type', "application/json");
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    // Request finished. Do processing here.
+                    alert("Formulário enviado com sucesso!!!");
+                    processing = false;
+                    document.querySelector('#name').value = "";
+                    document.querySelector('#email').value = "";
+                    document.querySelector('#txttelefone').value = "";
+                    // document.querySelector('#assunto').value = "";
+                    document.querySelector('#textarea1').value = "";
+//  var source =  
+//              console.log(source);
+                    console.log('firing event');
+                    ;
+                }
+            };
+
+            xhr.onerror = function () {
+                alert(
+                    "Erro ao enviar formulário, verifique sua internet!!"
+                );
+                processing = false;
+            }
+            
+            xhr.send(JSON.stringify({
+                email: "Nome: " + document.querySelector(
+                    '#name').value + '<br>' +
+                    "Email: " + document.querySelector(
+                        '#email').value + '<br>' +
+                    "Telefone: " + document.querySelector(
+                        '#txttelefone').value + '<br>' +
+                    "Mensagem: " + document.querySelector(
+                        '#textarea1').value + '<br>'
+                        
+                   
+
+
+            }));
+        });
+    });
+</script>
 </body>
 
 </html>

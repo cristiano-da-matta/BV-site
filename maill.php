@@ -21,36 +21,6 @@ $pass = $sendgrid_apikey;
  // 'template_id' => $template_id)))
 //    );
 
-function com_create_guid() {
-	$guid= sprintf('%04X%04X-%04X-%04X-%04X-%04X%04X%04X', mt_rand(0, 65535), mt_rand(0, 65535), mt_rand(0, 65535), mt_rand(16384, 20479), mt_rand(32768, 49151), mt_rand(0, 65535), mt_rand(0, 65535), mt_rand(0, 65535));
-	echo $guid;
-	return $guid;
-}
-function base64_to_jpeg($base64_string, $output_file) {
-    // open the output file for writing
-    $ifp = fopen( $output_file, 'wb' );
-
-    // split the string on commas
-    // $data[ 0 ] == "data:image/png;base64"
-    // $data[ 1 ] == <actual base64 string>
-    $data = explode( ',', $base64_string );
-
-    // we could add validation here with ensuring count( $data ) > 1
-    fwrite( $ifp, base64_decode( $data[ 1 ] ) );
-
-    // clean up the file resource
-    fclose( $ifp );
-
-    $res= exif_imagetype($output_file);
-    if($res &&  ($res<4)) {
-    	return $output_file;
-    }
-    unlink($output_file);
-    return false;
-
-
-}
-
 // Allow from any origin
 if(isset($_SERVER["HTTP_ORIGIN"]))
 {
@@ -85,41 +55,10 @@ if(isset($_POST))
    $input_data=json_decode(file_get_contents('php://input'),TRUE);
 
 
-// if(!empty($input_data['logomProj'])) {
-// 	$guidn=com_create_guid();
-// 	if(base64_to_jpeg($input_data['logomProj'], "/var/www/portfolio/uploads/".$guidn.".jpg")!=false) {
-// 		$input_data['email']=str_replace('*LOGOMARCAPROJAQUI*_', "http://portfolio.effy.com.br/uploads/".$guidn.".jpg", $input_data['email'] );
-// 	}
-// }
-// if(!empty($input_data['logomInst'])) {
-// 		$guid=com_create_guid();
-// 	if(base64_to_jpeg($input_data['logomInst'], "/var/www/portfolio/uploads/".$guid.".jpg")!=false) {
-// 		$input_data['email']=str_replace('*LOGOMARCAAQUI*_', "http://portfolio.effy.com.br/uploads/".$guid.".jpg", $input_data['email'] );
-// 		// var_dump($input_data['email']);
-// 	}
-// }
-
-// $input_data['email']=str_replace('*LOGOMARCAPROJAQUI*_','',$input_data['email']);
-
-// $email = str_replace('*LOGOMARCAAQUI*_','',$input_data['email']);
-
 $email = $input_data['email'];
 
 $textEmail = strip_tags($email);
 
-
-// $params = array(
-//   'to'        => "william@effy.com.br",
-//     //  'bcc'        => "contatorsa@effy.com.br",
-//         'toname'    => "Contato Formulário RSA",
-//             'from'      =>  "contato@effy.com.br",
-//                 'fromname'  =>  "Formulário RSA",
-//                     'subject'   => "Contato Simulador",
-//                         'text'      => $textEmail,
-//                             'html'      => $email /*.\
-//  json_encode($_GET) . json_encode($_SERVER)*/,
-//                                 //'x-smtpapi' => json_encode($js),
-//                                   );
 
 //Create a new PHPMailer instance
 $mail = new PHPMailer;
@@ -170,33 +109,8 @@ if (!$mail->send()) {
     echo "Mailer Error: " . $mail->ErrorInfo;
 } else {
     echo "Message sent!";
-    //Section 2: IMAP
-    //Uncomment these to save your message in the 'Sent Mail' folder.
-    #if (save_mail($mail)) {
-    #    echo "Message saved!";
-    #}
 }
-// $request =  $url.'api/mail.send.json';
 
-// Generate curl request
-// $session = curl_init($request);
-// // Tell PHP not to use SSLv3 (instead opting for TLS)
-// curl_setopt($session, CURLOPT_SSLVERSION, CURL_SSLVERSION_TLSv1_2);
-// curl_setopt($session, CURLOPT_HTTPHEADER, array('Authorization: Bearer ' . $sendgrid_apikey));
-// // Tell curl to use HTTP POST
-// curl_setopt ($session, CURLOPT_POST, true);
-// // Tell curl that this is the body of the POST
-// curl_setopt ($session, CURLOPT_POSTFIELDS, $params);
-// // Tell curl not to return headers, but do return the response
-// curl_setopt($session, CURLOPT_HEADER, false);
-// curl_setopt($session, CURLOPT_RETURNTRANSFER, true);
-
-// // obtain response
-// $response = curl_exec($session);
-// curl_close($session);
-
-// print everything out
-//print_r($response);
 
 }
 
