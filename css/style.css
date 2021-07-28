@@ -946,7 +946,7 @@ body:after {
 
 .slide-item .heading,
 .cover .heading {
-  font-size: 38px;
+  font-size: 30px;
   font-weight: 700;
   color: #fff;
 }
@@ -1091,6 +1091,7 @@ body:after {
   font-size: 16px;
   color: #fff;
   font-weight: 700;
+  margin-bottom: 40px;
 }
 
 .feature .img-wrap {
@@ -1428,7 +1429,7 @@ figure figcaption {
 
 .neus-img {
   /* FIXME: ESSA EH A MOBILE */
-  background-image: url("../images/idososati.png");
+  background-image: url("../images/idososati.jpeg");
   height: 168px;
   width: 100%;
   background-size: cover;
@@ -1454,6 +1455,43 @@ figure figcaption {
   margin-bottom: .7em;
 }
 
+
+/* parallax css */
+.mb_parallax_container {
+  height: auto;
+  width: 100vw;
+  border: 1px solid rgba(0, 0, 0, 0.411);
+  padding-top: 30vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mb_parallax_overlay {
+  height: auto;
+  width: 100%;
+  margin: auto;
+  padding: 0px;
+  text-align: center;
+  align-items: center;
+  opacity: .6;
+  }
+
+#mb_parallax_one {
+  background-image: url(../images/foto_paga_bv.jpeg);
+  align-items: center;
+}
+.textoparallax {
+margin-top: 0 auto;
+color: white;
+font-size: 30px;
+}  
+
+.ajustesparallax {
+  margin-bottom: 110px;
+  margin-top: -181px;
+}
+
 @media (min-width: 576px) {
   .mapa {
     box-sizing: border-box
@@ -1462,7 +1500,14 @@ figure figcaption {
   .desktop-only {
     display: none;
   }
-}
+  .textoparallax {
+    font-size: 27px;
+    }
+    .mb_parallax_overlay {
+      height: auto;
+      width: 90vh;
+      padding: 9px;
+}}
 
 .form {
   margin-left: 0;
@@ -1474,14 +1519,24 @@ figure figcaption {
   padding-right: 100px;
 
 }
-@media (min-width: 768px) {}
+
+@media (max-width: 992px) {
+    #mb_parallax_overlay {
+    display: none;
+    src: url(/images/parallaxmob.jpeg);
+  }
+}
+
+@media (min-width: 768px) {
+  background-image: url("/images/parallaxmob.jpeg");
+}
 
 @media (min-width: 992px) {
   .neus-img {
-    /* FIXME: ESSA EH A DESKTOP */
-    background-image: url("../images/idososemat.png");
+    /*ESSA EH A DESKTOP */
+    background-image: url("../images/2conteiner.jpeg");
   }
-
+  
   .desktop-only {
     display: block;
   }
