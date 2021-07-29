@@ -3,9 +3,14 @@
 
 <head>
   <!-- TODO: mudar title -->
-  <title>BV &mdash; Bem Viver Idosos</title>
+  <title> Bem Viver Idosos</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <link rel="icon" href="/images/favicon.ico" /> -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  
 
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@400;700&display=swap"
@@ -59,7 +64,7 @@
         <div class="row align-items-center">
 
           <div class="col-3 col-xl-2">
-            <div class="mb-0 site-logo"><img src="images\simbolo.jpeg" class="mb-0 logo"><span
+            <div class="mb-0 site-logo"><img src="images\AnyConv.com__simbolo.webp" class="mb-0 logo"><span
                 class="text-primary"></span> </a></div>
 
           </div>
@@ -99,8 +104,8 @@
     <!--  -->
     <!-- BANNER INICIAL -->
     <!--  -->
-    <div class="bannermob" style="background-image: url('images/bannermobile.jpeg')"></div>
-    <div id="banner" class="slide-item overlay" style="background-image: url('images/logo bem viver (2).jpeg')">
+    <!-- <div class="bannermob2" style="background-image: url('images/AnyConv.com__bannermobile.webp')"></div> -->
+    <div id="banner" class="slide-item overlay" style="background-image: url('images/logobemviver.webp')">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 align-self-center">
@@ -121,14 +126,14 @@
           <div class="col-lg-7">
             <div class="section-heading">
               <h2 class="heading mb-3 just2cont">Centro Bem Viver é para a sua família</h2>
-              <p class="mb-5 just2cont">De 1983 até aqui. Nossa experiência e tradição tornam acessível o atendimento a
+              <p class="mb-5 just2cont">De 1983 até aqui, nossa experiência e tradição tornam o atendimento à 
                 3ª
-                idade. Assistência a saúde, acolhimento humanizado e cuidado são algumas de nossas características
+                idade acessível. Assistência à saúde, acolhimento humanizado e cuidado são algumas de nossas características
                 fundamentais.</p>
 
               <div class="row">
                 <div class="col-lg-6">
-                  <!-- <img src="images/idososemat.jpeg" alt="Image" class="img-fluid"> -->
+                  <img src="images/AnyConv.com__idososemat.webp" alt="Image" class="img-fluid desktoponlycris">
                   <div alt="Image" class="neus-img img-fluid"></div>
 
 
@@ -150,10 +155,10 @@
 
             <div class="d-block custom-media algin-items-stretch">
               <div class="text text-center">
-                <h3>Equipe multidisciplinar especializada no atendimento a pessoas idosas para que todos se sintam
-                  acolhidos e cercados de carinho, como em um verdadeiro lar.</h3>
+                <h3>Equipe multidisciplinar especializada no atendimento às pessoas idosas, para que todos se sintam
+                  acolhidos e cercados de carinho como em um verdadeiro lar.</h3>
               </div>
-              <div class="img-bg" style="background-image: url('images/idososati.jpeg')"></div>
+              <div class="img-bg" style="background-image: url('images/AnyConv.com__idososati.webp')"></div>
             </div>
           </div>
         </div>
@@ -181,7 +186,7 @@
           <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
             <div class="counter-wrap text-center">
               <strong class="counter d-block"><span class="number" data-number="32"></span></strong>
-              <span>Residêntes</span>
+              <span>Residentes</span>
             </div>
           </div>
           <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
@@ -203,16 +208,16 @@
         <div class="row">
           <div class="col-6 col-sm-6 col-md-6 mb-4 mb-lg-0 col-lg-3">
             <div class="service">
-              <a href="#" class="d-block"><img src="images/img_4_sq.jpeg" alt="Image" class="img-fluid"></a>
+              <a href="#" class="d-block"><img src="images/AnyConv.com__img_4_sq.webp" alt="Image" class="img-fluid"></a>
               <div class="service-inner">
                 <h3>Cuidado 24 hrs por dia</h3>
-                <p>Enfermagem, Psicologia e hotelaria.</p>
+                <p>Enfermagem, psicologia e hotelaria.</p>
               </div>
             </div>
           </div>
           <div class="col-6 col-sm-6 col-md-6 mb-4 mb-lg-0 col-lg-3">
             <div class="service">
-              <a href="#" class="d-block"><img src="images/img_1_sq.jpeg" alt="Image" class="img-fluid"></a>
+              <a href="#" class="d-block"><img src="images/AnyConv.com__img_1_sq.webp" alt="Image" class="img-fluid"></a>
               <div class="service-inner">
                 <h3>Equipe médica</h3>
                 <p>Acompanhamento médico geriatrico.</p>
@@ -221,7 +226,7 @@
           </div>
           <div class="col-6 col-sm-6 col-md-6 mb-4 mb-lg-0 col-lg-3">
             <div class="service">
-              <a href="#" class="d-block"><img src="images/img_2_sq.jpeg" alt="Image" class="img-fluid"></a>
+              <a href="#" class="d-block"><img src="images/AnyConv.com__img_2_sq.webp" alt="Image" class="img-fluid"></a>
               <div class="service-inner">
                 <h3 class="semquebra">Alimentação balanceada</h3>
                 <p>Acompanhamento nutricional e cozinha própria</p>
@@ -230,9 +235,9 @@
           </div>
           <div class="col-6 col-sm-6 col-md-6 mb-4 mb-lg-0 col-lg-3">
             <div class="service">
-              <a href="#" class="d-block"><img src="images/img_3_sq.jpeg" alt="Image" class="img-fluid"></a>
+              <a href="#" class="d-block"><img src="images/img_3_sq.webp" alt="Image" class="img-fluid"></a>
               <div class="service-inner">
-                <h3>Diferenciais Bem Viver</h3>
+                <h3>Atenção dedicada</h3>
                 <p>Wi-fi, telefonia, assistente social e lavanderia</p>
               </div>
             </div>
@@ -341,7 +346,7 @@
             <div class="heading">
               <h2 class="text-black">Nossos Serviços</h2>
             </div>
-            <p>Casa repleta de conforto, atividades extras, médicos, enfermeiros, psicólogos. Atenção dedicada para
+            <p id="margemtexto">Casa repleta de conforto, atividades extras, médicos, enfermeiros, psicólogos. Atenção dedicada para
               todos os internos.</p>
           </div>
         </div>
@@ -353,7 +358,7 @@
 
 
               </div>
-              <div class="img-bg" style="background-image: url('images/longa.jpeg')"></div>
+              <div class="img-bg" style="background-image: url('images/AnyConv.com__longa.webp')"></div>
             </div>
           </div>
           <div class="col-lg-4 mb-4">
@@ -363,17 +368,17 @@
 
 
               </div>
-              <div class="img-bg" style="background-image: url('images/curta.jpeg')"></div>
+              <div class="img-bg" style="background-image: url('images/AnyConv.com__curta.webp')"></div>
             </div>
           </div>
           <div class="col-lg-4 mb-4">
             <div class="d-block d-flex custom-media algin-items-stretch">
               <div class="text text-left">
                 <h3>Centro dia - atividades extras e lazer </h3>
-                <p class="mb-4" id="covid">Adiado devido à Covid.</p>
+                <p class="mb-4" id="covid">Suspenso devido à Covid.</p>
 
               </div>
-              <div class="img-bg" style="background-image: url('images/centro.jpeg')"></div>
+              <div class="img-bg" style="background-image: url('images/AnyConv.com__centro.webp')"></div>
             </div>
           </div>
         </div>
@@ -388,19 +393,19 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-6 mb-5 mb-md-0">
-            <img src="images/imgfooter.jpeg" alt="Image" class="img-fluid">
+            <img src="images/AnyConv.com__imgfooter.webp" alt="Image" class="img-fluid">
           </div>
           <div class="col-md-6 col-lg-5 ml-auto">
             <div class="section-heading">
               <h2 class="heading mb-3 text-white">Centro de cuidados e atividades para idosos e idosas</h2>
-
+              <p class="text-white mb-5"><br><strong>&ldquo;A vida é mais feliz com afeto&rdquo;</strong></p>
+              
               <p class="text-white">No Bem Viver estamos atentos em oferecer o melhor cuidado para os nossos idosos.
                 Estimulamos o convívio e a proximidade entre eles com momentos de interação e atividades com
                 profissionais especializados.</p>
               <!-- <p class="mb-4 text-white">Optio ex ullam eveniet magnam molestiae laborum, dignissimos dolorum ipsam
                 minus, ipsum vel illo aut molestias suscipit voluptatem hic voluptatibus!</p> -->
-              <p class="text-white mb-5"><strong class="h3">&ldquo;A vida é mais feliz com afeto&rdquo;</strong></p>
-              <p><a href="http://204.48.29.1/#contato" class="btn btn-white">Entre em Contato</a></p>
+              <p><br><a href="http://204.48.29.1/#contato" class="btn btn-white">Entre em Contato</a></p>
             </div>
           </div>
         </div>
@@ -467,7 +472,7 @@
         <div class="col-md-4">
           <div class="blog-entry">
             <a href="#" class="d-block">
-              <img src="images/img_1.jpeg" alt="Image" class="img-fluid">
+              <img src="images/AnyConv.com__img_1.webp" alt="Image" class="img-fluid">
             </a>
             <div class="post-meta d-flex justify-content-center">
               <span>
@@ -548,18 +553,18 @@
 
 
               <div class="titulo-bem-viver">
-                <h1> Contato Bem Viver</h1>
+                <h1> Fale Conosco</h1>
               </div>
 
               <div class="row form-group">
-                <div class="col-md-6 mb-3 mb-md-0">
+                <div class="col-md-12">
                   <label class= "text-black" for="fname">Primeiro Nome</label>
                   <input type="text" id="fname" class="form-control">
                 </div>
-                <div class="col-md-6">
+                <!-- <div class="col-md-6">
                   <label class="text-black" for="lname">Segundo Nome</label>
                   <input type="text" id="lname" class="form-control">
-                </div>
+                </div> -->
               </div>
 
               <div class="row form-group">
@@ -608,9 +613,11 @@
               </div>
               <p class="mb-0 font-weight-bold text-black">Telefone</p>
               <p class="mb-4"><a href="#">(21) 2234-4174</a></p>
+              <p class="mb-4"><a href="#">(21) 98786-2962</a></p>
+              <p class="mb-4"><a href="#">(21) 99307-9031</a></p>
 
               <p class="mb-0 font-weight-bold text-black">Email</p>
-              <p class="mb-0"><a href="#">bemviver-idosos@uol.com.br</a></p>
+              <p class="mb-0"><a href="#">contato@bemviveridosos.com.br</a></p>
             </div>
 
           </div>
@@ -633,7 +640,7 @@
 
             </div>
             <h2 class="footer-heading neus-footer-title">Bem Viver</h2>
-            <p class="neus-footer-description">Cuidado 24 horas por dia!</p>
+            <p class="neus-footer-description">Cuidado 24 horas por dia, há mais de 30 anos!</p>
           </div>
           <!-- <div class="col-lg-8">
               <div class="row">
@@ -673,11 +680,11 @@
             <div class="border-top">
               <p class="copyright"><small>
                   <a href="https://www.expressoconsultoria.com" target="_blank">
-                    Expresso Consultoria</a>
+                    Expresso Consultoria - 2021</a>
                   Copyright &copy;
-                  <script>
+                  <!-- <script>
                     document.write(new Date().getFullYear());
-                  </script>
+                  </script> -->
 
                   <!-- | This template is made with <i class="icon-heart text-danger"
                       aria-hidden="true"></i> by <a href="https://expressoconsultoria.com.br" target="_blank">Colorlib</a> -->
@@ -708,13 +715,7 @@
 
 <script src="js/main.js"></script>
 
-  <!-- <script src="js/parallax.min.js"></script> -->
-  <!-- <script>
-    $('.parallax-window').parallax({
-      imageSrc: 'images/foto_paga_bv.jpeg'
-    });
-  </script>  -->
-
+ 
 <script>
     var processing = false;
 //     document.addEventListener("DOMContentLoaded", function () {
@@ -755,7 +756,7 @@
                     alert("Formulário enviado com sucesso!!!");
                     processing = false;
                     document.querySelector('#fname').value = "";
-                    document.querySelector('#lname').value = "";
+                    // document.querySelector('#lname').value = "";
                     document.querySelector('#email').value = "";
                     document.querySelector('#subject').value = "";
                     document.querySelector('#message').value = "";
@@ -774,7 +775,7 @@
             }
             
             var fname = document.querySelector('#fname').value
-            var lname = document.querySelector('#lname').value
+            // var lname = document.querySelector('#lname').value
             var maill = document.querySelector('#email').value
             var subject = document.querySelector('#subject').value
             var message = document.querySelector('#message').value
@@ -782,7 +783,7 @@
             xhr.send(JSON.stringify({
                 email: "Nome: " + fname + '<br>' +
                     "Email: " + maill + '<br>' +
-                    "Sobrenome: " + lname + '<br>' +
+                    // "Sobrenome: " + lname + '<br>' +
                     "Assunto: " + subject + '<br>' + 
                     "Texto: " + message + '<br>'
                 }));

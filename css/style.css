@@ -6,7 +6,7 @@ html {
 body {
   line-height: 1.7;
   color: gray;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1rem;
 }
 
@@ -947,7 +947,7 @@ body:after {
 .slide-item .heading,
 .cover .heading {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 600;
   color: #fff;
 }
 
@@ -1074,7 +1074,7 @@ body:after {
 }
 
 .custom-media .text h3 {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 1.4em;
 }
 
@@ -1088,8 +1088,8 @@ body:after {
 }
 
 .feature h3 {
-  font-size: 16px;
-  color: #fff;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
   font-weight: 700;
   margin-bottom: 40px;
 }
@@ -1408,10 +1408,13 @@ figure figcaption {
 }
 
 #covid {
-  color: #110b0b;
-
+  color: #f8f9fa;
+  margin-top: 60px;
 }
-
+#margemtexto {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .cont2 {
   margin-top: 38px;
   margin-bottom: 0px;
@@ -1429,8 +1432,9 @@ figure figcaption {
 
 .neus-img {
   /* FIXME: ESSA EH A MOBILE */
-  background-image: url("../images/idososati.jpeg");
-  height: 168px;
+  display: none;
+  background-image: url("../images/AnyConv.com__idososati.webp");
+  height: 138px;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1474,11 +1478,10 @@ figure figcaption {
   padding: 0px;
   text-align: center;
   align-items: center;
-  opacity: .6;
   }
 
 #mb_parallax_one {
-  background-image: url(../images/foto_paga_bv.jpeg);
+  background-image: url(../images/AnyConv.com__foto_paga_bv.webp);
   align-items: center;
 }
 .textoparallax {
@@ -1525,22 +1528,28 @@ font-size: 30px;
     display: none;
     src: url(/images/parallaxmob.jpeg);
   }
+  .desktoponlycris {
+    display: none;
+  }
+  .bannermob { 
+    background-image: url('images/AnyConv.com__bannermobile2.webp');
+  }
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   background-image: url("/images/parallaxmob.jpeg");
-}
+} */
 
 @media (min-width: 992px) {
   .neus-img {
     /*ESSA EH A DESKTOP */
-    background-image: url("../images/2conteiner.jpeg");
+    background-image: url("../images/AnyConv.com__2conteiner.webp");
   }
   
   .desktop-only {
     display: block;
   }
-}
+   }
 
 .acertoform {
   padding: 0;
