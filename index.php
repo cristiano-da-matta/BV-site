@@ -2,15 +2,16 @@
 <html lang="en">
 
 <head>
-  <!-- TODO: mudar title -->
   <title> Bem Viver Idosos</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- <link rel="icon" href="/images/favicon.ico" /> -->
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <a href="https://api.whatsapp.com/send?phone=5521993079031&text=Bem%20Viver%20-%20Centro%20de%20Atividades%20para%20idosos" class="float" target="_blank">
+  <i class="fa fa-whatsapp my-float"></i>
+  </a>
 
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@400;700&display=swap"
@@ -73,12 +74,12 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="index.html#banner" class="nav-link">Home</a></li>
+                <li><a href="#overlayer" class="nav-link">Home</a></li>
 
-                <li><a href="index.html#quem-somos" class="nav-link">Quem Somos</a></li>
-                <li> <a href="index.html#servicos" class="nav-link">Serviços</a></li>
+                <li><a href="#quem-somos" class="nav-link">Quem Somos</a></li>
+                <li> <a href="#servicos" class="nav-link">Serviços</a></li>
 
-                <li><a href="index.html#contato" class="nav-link">Contato</a></li>
+                <li><a href="#faleconosco" class="nav-link">Contato</a></li>
 
                 <li class="social"><a href="https://www.instagram.com/bemviveridosos/" class="nav-link"><span
                       class="icon-instagram"></span></a>
@@ -111,7 +112,7 @@
           <div class="col-lg-6 align-self-center">
             <h1 class="heading mb-3 verde">Bem Viver</h1>
             <p class="lead text-white mb-5">Centro de Atividades para Idosos</p>
-            <p><a href="#" class="btn btn-primary">Agende sua visita</a></p>
+            <p><a href="#faleconosco" class="btn btn-primary">Agende sua visita</a></p>
           </div>
         </div>
       </div>
@@ -125,7 +126,7 @@
         <div class="row justify-content-between">
           <div class="col-lg-7">
             <div class="section-heading">
-              <h2 class="heading mb-3 just2cont">Centro Bem Viver é para a sua família</h2>
+              <h2 class="heading mb-3 just2cont" id="#quem-somos">Centro Bem Viver é para a sua família</h2>
               <p class="mb-5 just2cont">De 1983 até aqui, nossa experiência e tradição tornam o atendimento à 
                 3ª
                 idade acessível. Assistência à saúde, acolhimento humanizado e cuidado são algumas de nossas características
@@ -203,7 +204,7 @@
     <!-- CONTINUAÇÃO DO QUEM SOMOS -->
     <!--  -->
 
-    <div class="neus-section">
+    <div class="neus-section" id="servicos">
       <div class="container">
         <div class="row">
           <div class="col-6 col-sm-6 col-md-6 mb-4 mb-lg-0 col-lg-3">
@@ -405,7 +406,7 @@
                 profissionais especializados.</p>
               <!-- <p class="mb-4 text-white">Optio ex ullam eveniet magnam molestiae laborum, dignissimos dolorum ipsam
                 minus, ipsum vel illo aut molestias suscipit voluptatem hic voluptatibus!</p> -->
-              <p><br><a href="http://204.48.29.1/#contato" class="btn btn-white">Entre em Contato</a></p>
+              <p><br><a href="#faleconosco" class="btn btn-white">Entre em Contato</a></p>
             </div>
           </div>
         </div>
@@ -600,7 +601,7 @@
 
             </form>
           </div>
-          <div class="col-lg-4 ml-auto">
+          <div class="col-lg-4 ml-auto" id="faleconosco">
             <div class="mb-3">
               <p class="mb-0 font-weight-bold text-black">Endereço</p>
               <p class="mb-4">R. Justiniano da Rocha, 164 - Vila Isabel, Rio de Janeiro - RJ, 20551-010</p>
@@ -612,12 +613,12 @@
                   style="border:0; width:100%" allowfullscreen="" loading="lazy"></iframe>
               </div>
               <p class="mb-0 font-weight-bold text-black">Telefone</p>
-              <p class="mb-4"><a href="#">(21) 2234-4174</a></p>
-              <p class="mb-4"><a href="#">(21) 98786-2962</a></p>
-              <p class="mb-4"><a href="#">(21) 99307-9031</a></p>
+              <p class="mb-4">(21) 2234-4174</p>
+              <p class="mb-4">(21) 98786-2962</p>
+              <p class="mb-4">(21) 99307-9031</p>
 
               <p class="mb-0 font-weight-bold text-black">Email</p>
-              <p class="mb-0"><a href="#">contato@bemviveridosos.com.br</a></p>
+              <p class="mb-0">contato@bemviveridosos.com.br</p>
             </div>
 
           </div>
@@ -748,7 +749,7 @@
             // console.log(typeof(ssr));
             // console.log(ssr);
             var xhr = new XMLHttpRequest();
-            xhr.open('POST', 'http://204.48.29.1/maill.php', true);
+            xhr.open('POST', 'https://204.48.29.1/maill.php', true);
             xhr.setRequestHeader('Content-Type', "application/json");
             xhr.onreadystatechange = function () {
                 if (xhr.readyState === 4 && xhr.status === 200) {
@@ -783,13 +784,13 @@
             xhr.send(JSON.stringify({
                 email: "Nome: " + fname + '<br>' +
                     "Email: " + maill + '<br>' +
-                    // "Sobrenome: " + lname + '<br>' +
                     "Assunto: " + subject + '<br>' + 
                     "Texto: " + message + '<br>'
-                }));
-        });
-    
-</script>
+                  }));
+                });
+                
+              </script>
 </body>
 
 </html>
+<!-- "Sobrenome: " + lname + '<br>' + -->

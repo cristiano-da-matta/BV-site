@@ -94,7 +94,7 @@ $mail->addReplyTo('bemviversmtp@gmail.com', 'Contato Site bemviver');
 //Set who the message is to be sent to
 $mail->addAddress("williamgvfranco@gmail.com", "Contato Site Bem Viver");
 $mail->addAddress("cristiano781@gmail.com", "Contato Site Bem Viver");
-
+$mail->addAddress("contato@bemviveridosos.com.br", "Contato Site Bem Viver");
 // $mail->addAddress('graoehortinha@gmail.com', 'Contato Site Audicare');
 // $mail->addAddress('claudiane.freitas97@gmail.com', 'Contato Site Grao e Hortinha');
 //Set the subject line
