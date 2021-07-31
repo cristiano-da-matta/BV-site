@@ -749,7 +749,7 @@
             // console.log(typeof(ssr));
             // console.log(ssr);
             var xhr = new XMLHttpRequest();
-            xhr.open('POST', 'https://204.48.29.1/maill.php', true);
+            xhr.open('POST', 'https://bemviveridosos.com.br/maill.php', true);
             xhr.setRequestHeader('Content-Type', "application/json");
             xhr.onreadystatechange = function () {
                 if (xhr.readyState === 4 && xhr.status === 200) {
@@ -784,13 +784,13 @@
             xhr.send(JSON.stringify({
                 email: "Nome: " + fname + '<br>' +
                     "Email: " + maill + '<br>' +
+                    // "Sobrenome: " + lname + '<br>' +
                     "Assunto: " + subject + '<br>' + 
                     "Texto: " + message + '<br>'
-                  }));
-                });
-                
-              </script>
+                }));
+        });
+    
+</script>
 </body>
 
 </html>
-<!-- "Sobrenome: " + lname + '<br>' + -->
