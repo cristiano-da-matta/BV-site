@@ -211,8 +211,8 @@
             <div class="service">
               <a href="#" class="d-block"><img src="images/AnyConv.com__img_4_sq.webp" alt="Image" class="img-fluid"></a>
               <div class="service-inner">
-                <h3>Cuidado 24 hrs por dia</h3>
-                <p>Enfermagem, psicologia e hotelaria.</p>
+                <h3 class="breakword">Cuidado 24 hrs por dia</h3>
+                <p class="breakword">Enfermagem, psicologia e hotelaria.</p>
               </div>
             </div>
           </div>
@@ -220,8 +220,8 @@
             <div class="service">
               <a href="#" class="d-block"><img src="images/AnyConv.com__img_1_sq.webp" alt="Image" class="img-fluid"></a>
               <div class="service-inner">
-                <h3>Equipe médica</h3>
-                <p>Acompanhamento médico geriatrico.</p>
+                <h3 class="breakword">Equipe médica</h3>
+                <p class="breakword">com especialista médico geriatrico.</p>
               </div>
             </div>
           </div>
@@ -229,17 +229,17 @@
             <div class="service">
               <a href="#" class="d-block"><img src="images/AnyConv.com__img_2_sq.webp" alt="Image" class="img-fluid"></a>
               <div class="service-inner">
-                <h3 class="semquebra">Alimentação balanceada</h3>
-                <p>Acompanhamento nutricional e cozinha própria</p>
+                <h3 class="semquebra" class="breakword">Alimentação balanceada</h3>
+                <p class="breakword">Supervisão nutricional e cozinha própria</p>
               </div>
             </div>
           </div>
           <div class="col-6 col-sm-6 col-md-6 mb-4 mb-lg-0 col-lg-3">
             <div class="service">
-              <a href="#" class="d-block"><img src="images/img_3_sq.webp" alt="Image" class="img-fluid"></a>
+              <a class="d-block" class="breakword"><img src="images/img_3_sq.webp" alt="Image" class="img-fluid"></a>
               <div class="service-inner">
-                <h3>Atenção dedicada</h3>
-                <p>Wi-fi, telefonia, assistente social e lavanderia</p>
+                <h3 class="breakword">Atenção dedicada</h3>
+                <p class="breakword">Wi-fi, telefonia, assistente social e lavanderia</p>
               </div>
             </div>
           </div>
@@ -254,11 +254,12 @@
 
     
     <!-- <div class="cover overlay parallax-window"> -->
+
       <div class="mb_parallax_container" id="mb_parallax_one">
                 <div class="container mb_parallax_overlay ajustesparallax">
-          <div class="row">
+          <div class="row ajustealtura">
             <div class="col-lg-8 mx-auto text-center align-self-center">
-              <h1 class="mb-4 heading textoparallax">Nosso objetivo é fazer da sua vida a melhor</h1>
+              <h1 class="mb-4 heading textoparallax ajustemargintexto">Nosso objetivo é fazer da sua vida a melhor</h1>
               <div class="row">
                 <div class="col-lg-4">
                   <div class="feature">

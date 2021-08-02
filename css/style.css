@@ -968,6 +968,12 @@ body:after {
   }
 }
 
+@media(max-width: 600px ) {
+  .ajustemargintexto {
+    margin: 5vw;
+  }
+}
+
 .feature-v1 .pagination-item.active {
   background: #fff;
   position: relative;
@@ -1096,8 +1102,8 @@ body:after {
 
 .feature .img-wrap {
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   position: relative;
   border-radius: 50%;
   background: #fff;
@@ -1105,7 +1111,7 @@ body:after {
 
 .feature .img-wrap img {
   position: absolute;
-  width: 60px;
+  width: 39px;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -1465,7 +1471,7 @@ figure figcaption {
   height: auto;
   width: 100vw;
   border: 1px solid rgba(0, 0, 0, 0.411);
-  padding-top: 30vh;
+  padding-top: 16vh;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1504,7 +1510,7 @@ font-size: 30px;
     display: none;
   }
   .textoparallax {
-    font-size: 27px;
+    font-size: 24px;
     }
     .mb_parallax_overlay {
       height: auto;
@@ -1579,4 +1585,8 @@ font-size: 30px;
 
 .my-float{
 	margin-top:16px;
+}
+
+.ajustealtura {
+margin-top: 20vh;
 }
