@@ -2,7 +2,14 @@
 <html lang="en">
 
 <head>
-  <title> Bem Viver Idosos</title>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TN8G7V8');</script>
+<!-- End Google Tag Manager -->  
+<title> Bem Viver Idosos</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
@@ -37,7 +44,10 @@
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="250">
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TN8G7V8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
   <div id="overlayer"></div>
   <div class="loader">
@@ -642,7 +652,7 @@
 
             </div>
             <h2 class="footer-heading neus-footer-title">Bem Viver</h2>
-            <p class="neus-footer-description">Cuidado 24 horas por dia, há mais de 30 anos!</p>
+            <p class="neus-footer-description">24 horas por dia, há mais de 30 anos!</p>
           </div>
           <!-- <div class="col-lg-8">
               <div class="row">
